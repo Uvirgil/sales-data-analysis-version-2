@@ -9,6 +9,9 @@ class Product:
     def display_info(self):
         return f"Product Name: {self.name}, Price: {self.price}£, Quantity: {self.quantity}"
     
+    def __str__(self):
+        return f"Product Name: {self.name}, Price: {self.price}£, Quantity: {self.quantity}" 
+    
     def update_quantity(self, value):
         self.quantity += value
         if self.quantity < 0:

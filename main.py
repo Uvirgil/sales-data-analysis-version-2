@@ -20,3 +20,8 @@ print("Products in the store:")
 product_manager.display_products()
 
 print(f"Total value of products in the store: {product_manager.total_products_value()}£")
+
+product_manager.remove_product("Wireless Charger")
+print("Products left in store:")
+for product in product_manager.products:
+    print(product)
