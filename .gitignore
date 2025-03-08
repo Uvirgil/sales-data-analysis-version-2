@@ -1,0 +1,10 @@
+## ignore the file config.json
+config.json
+
+## ignore screenshots and images
+*.png
+*.jpg
+*.jpeg
+
+## ignore Python cache files
+__pycache__/
